@@ -89,3 +89,42 @@ button:focus-visible {
   margin: 0 auto;
   flex-grow: 1;
 }
+
+.widget-container .chat-header-container {
+  background-color: #edf1f4;
+  height: 20px;
+  width: 100%;
+}
+
+.widget-container .widget-chat-container {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+  overflow: auto;
+  height: 1px;
+}
+
+.widget-container .widget-form {
+  background-color: #fff;
+  border-radius: 14px;
+  padding: 10px;
+  margin: 20px;
+}
+
+.widget-container .widget-form textarea {
+  background-color: transparent;
+  width: 100%;
+  border: none;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+.widget-chat-container .message-wrapper {
+  margin: 0 20px 10px;
+}
+.widget-chat-container .message-wrapper .message {
+  border-radius: 14px;
+  background-color: #fff;
+  padding: 10px 20px;
+}
