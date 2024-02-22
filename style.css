@@ -118,6 +118,7 @@ button:focus-visible {
   margin: 0;
   padding: 0;
   outline: none;
+  resize: none;
 }
 
 .widget-chat-container .message-wrapper {
