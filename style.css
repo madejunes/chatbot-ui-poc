@@ -123,8 +123,23 @@ button:focus-visible {
 .widget-chat-container .message-wrapper {
   margin: 0 20px 10px;
 }
+.widget-chat-container .message-wrapper .message-inner {
+  display: flex;
+}
 .widget-chat-container .message-wrapper .message {
   border-radius: 14px;
   background-color: #fff;
   padding: 10px 20px;
+  border-bottom-left-radius: 0;
+  display: flex;
+}
+.widget-chat-container .message-wrapper.me .message-inner {
+  align-items: flex-end;
+  flex-direction: column;
+}
+.widget-chat-container .message-wrapper.me .message {
+  border-bottom-left-radius: 14px;
+  border-bottom-right-radius: 0;
+  background-color: #033649;
+  color: #fff;
 }
