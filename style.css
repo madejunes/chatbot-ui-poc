@@ -144,3 +144,22 @@ button:focus-visible {
   background-color: #033649;
   color: #fff;
 }
+
+.widget-chat-container .loading-indicator {
+  position: absolute;
+  left: 10px;
+  bottom: 80px;
+  display: none;
+}
+.widget-chat-container .loading-indicator.show {
+  display: block;
+}
+
+.widget-chat-container .loading-indicator span {
+  border-radius: 14px;
+  background-color: #fff;
+  padding: 10px;
+  margin: 0 10px 10px;
+  font-size: small;
+  border-bottom-left-radius: 0;
+}
