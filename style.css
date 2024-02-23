@@ -72,7 +72,7 @@ button:focus-visible {
 }
 @media (min-width: 768px) {
   .widget-container {
-    width: 30%;
+    width: 48%;
   }
 }
 
